@@ -16,10 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Simple react project fetching data from the jsonplaceholder api .
 Displaying simple blog data (no styling) in the form of 
- 1.Semantic Icon
- 2.Title
- 3.Description
- 4.Author
+ <li>Semantic Icon</li>
+<li>Title/li>
+<li>Description/li>
+<li>Author/li>
 
  Target of the program is exercising over TypeScript with react-redux
  and implementing (+ structuring) Redux correctly using thunk and lodash. 
