@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 # React Redux exercise  with usage of redux-thunk and lodash
 
 Simple react project fetching data from the jsonplaceholder api .
-Displaying simple blog data (no styling) in the form of 
+Displaying simple blog data (no styling) in the form of :
 <li>Semantic Icon</li>
 <li>Title</li>
 <li>Description</li>
