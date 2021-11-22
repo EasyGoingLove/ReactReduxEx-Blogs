@@ -1,22 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchUser } from "../actions";
 
 interface IUser {
-  name:string
+  name: string;
 }
 type MyProps = {
-  fetchUser: (arg0: number) => void;
   user: IUser;
-  userId: number;
 };
 type MyState = {};
 
 class UserHeader extends React.Component<MyProps, MyState> {
-  componentDidMount() {
-    this.props.fetchUser(this.props.userId);
-  }
-
   render() {
     const { user } = this.props;
     if (!user) {
@@ -29,8 +22,8 @@ class UserHeader extends React.Component<MyProps, MyState> {
 const mapStateToProps = (state: any, ownProps: any) => {
   return {
     user: state.users.find(
-      (user:{ id: number }) => user.id === ownProps.userId
+      (user: { id: number }) => user.id === ownProps.userId
     ),
   };
 };
-export default connect(mapStateToProps, { fetchUser })(UserHeader);
+export default connect(mapStateToProps)(UserHeader);
