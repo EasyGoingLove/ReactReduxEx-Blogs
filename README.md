@@ -11,3 +11,17 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+
+# React Redux exercise  with usage of redux-thunk and lodash
+
+Simple react project fetching data from the jsonplaceholder api .
+Displaying simple blog data (no styling) in the form of 
+ 1.Semantic Icon
+ 2.Title
+ 3.Description
+ 4.Author
+
+ Target of the program is exercising over TypeScript with react-redux
+ and implementing (+ structuring) Redux correctly using thunk and lodash. 
+
+
